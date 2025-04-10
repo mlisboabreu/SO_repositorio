@@ -194,6 +194,8 @@ UPROGS=\
 	$U/_grind\
 	$U/_wc\
 	$U/_zombie\
+	$U/_sleep\
+	$U/_pingpong\
 
 
 
@@ -226,7 +228,7 @@ UPROGS += \
 	$U/_cowtest
 endif
 
-ifeq ($(LAB),thread)
+ifeq ($(LAB),thread)	
 UPROGS += \
 	$U/_uthread
 
