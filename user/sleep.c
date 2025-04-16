@@ -9,10 +9,10 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
 
-    // Converte o argumento para inteiro
+    // transforma em inteiro
     int ticks = atoi(argv[1]);
 
-    // Chama a syscall sleep
+    //syscall sleep
     sleep(ticks);
 
     // Finaliza o programa
